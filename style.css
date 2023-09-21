@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Shadows+Into+Light&display=swap');
+body{
+    background-color: black;
+}
+.cabeçalho{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+font-family: 'Shadows Into Light', cursive;
+}
+.conteudo{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+   
+}
+#nav1{
+    background-color: aqua;
+    height: 400px;
+    width: 250px;
+    align-items: center;
+    border-radius: 20px;
+    transition: 0.20s;
+}
+#nav1:hover{
+    height: 500px;
+    width: 270px;
+    box-shadow: 05px 10px 10px 10px whitesmoke;
+}
+#academiaimg{
+    height: 200px;
+    width: 100%;
+   border-radius: 20px 20px 0px 0px;
+}
+#nav2{
+    background-color: aqua;
+    height: 400px;
+    width: 250px;
+    align-items: center;
+    border-radius: 20px; 
+    transition: 0.30s; 
+}
+#nav2:hover{
+    height: 500px;
+    width: 270px;
+    box-shadow: 5px 10px 10px 10px rgba(92, 176, 255, 0.801);
+}
+#gamesimg{
+    height: 200px;
+    width: 100%;
+   border-radius: 20px 20px 0px 0px;
+}
+
+#nav3{
+    background-color: aqua;
+    height: 400px;
+    width: 250px;
+    align-items: center;
+    border-radius: 20px;
+    transition: 0.20s;
+}
+#nav3:hover{
+    height: 500px;
+    width: 270px;
+    box-shadow: 5px 10px 10px 10px whitesmoke;
+}
+#surfimg{
+    height: 200px;
+    width: 100%;
+   border-radius: 20px 20px 0px 0px;
+}
+
+
+ 
