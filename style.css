@@ -1,24 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Shadows+Into+Light&display=swap');
-body{
-    background-color: black;
+
+body {
+    background-color: #93e4c1;
 }
-.cabeçalho{
+
+.cabeçalho {
+    background-color: #118a7e;
     margin-top: 20px;
     display: flex;
     justify-content: center;
     color: white;
     font-size: 60px;
-font-family: 'Shadows Into Light', cursive;
+    font-family: 'Shadows Into Light', cursive;
 }
-.conteudo{
+
+.conteudo {
     margin-top: 100px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 500px;
-   
+
 }
-#nav1{
+
+#nav1 {
     background-color: aqua;
     height: 400px;
     width: 250px;
@@ -26,36 +31,45 @@ font-family: 'Shadows Into Light', cursive;
     border-radius: 20px;
     transition: 0.20s;
 }
-#nav1:hover{
+
+#nav1:hover {
     height: 500px;
     width: 270px;
-    box-shadow: 05px 10px 10px 10px whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
-#academiaimg{
+
+#academiaimg {
     height: 200px;
     width: 100%;
-   border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
 }
-#nav2{
+a{
+    padding-left: 85px;
+   width: 10px;
+}
+
+#nav2 {
     background-color: aqua;
     height: 400px;
     width: 250px;
     align-items: center;
-    border-radius: 20px; 
-    transition: 0.30s; 
-}
-#nav2:hover{
-    height: 500px;
-    width: 270px;
-    box-shadow: 5px 10px 10px 10px rgba(92, 176, 255, 0.801);
-}
-#gamesimg{
-    height: 200px;
-    width: 100%;
-   border-radius: 20px 20px 0px 0px;
+    border-radius: 20px;
+    transition: 0.30s;
 }
 
-#nav3{
+#nav2:hover {
+    height: 500px;
+    width: 270px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+#gamesimg {
+    height: 200px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#nav3 {
     background-color: aqua;
     height: 400px;
     width: 250px;
@@ -63,16 +77,14 @@ font-family: 'Shadows Into Light', cursive;
     border-radius: 20px;
     transition: 0.20s;
 }
-#nav3:hover{
+
+#nav3:hover {
     height: 500px;
     width: 270px;
-    box-shadow: 5px 10px 10px 10px whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
-#surfimg{
+#surfimg {
     height: 200px;
     width: 100%;
-   border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
 }
-
-
- 
